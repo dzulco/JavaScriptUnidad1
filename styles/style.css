@@ -1,9 +1,7 @@
-
-header {
-    background-color: #978877;
-}
-
-main {
-    background-color: #fefffb;
-}
-
+.resultados {
+    border: 2px solid green;
+    background-color: lightgreen;
+    border-radius: 15px;
+    margin: 2%;
+    padding: 2%;
+  }

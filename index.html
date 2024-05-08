@@ -16,13 +16,16 @@
     </header>
     <main>
         <section>
-            <form method="dialog" onsubmit="onFormSubmit()">
+            <form action="">
                 <label for="user_name">User Name </label><input type="text" name="user_name" id="user_name"></br>
                 <label for="valor_1">Valor 1 </label><input type="number" name="valor_1" id="valor_1"></br>
                 <label for="valor_2">Valor 2 </label><input type="number" name="valor_2" id="valor_2"></br>
-                <input type="submit" value="Enviar">
+                <input type="button" onclick="inputByForm()" value="Ingresar por Formulario">
             </form>
-            
+            <br>
+            <input type="button" onclick="inputByPrompt()" value="Ingresar por Prompt">
+            <div id="resultados" class="resultados">
+            </div>            
         </section>
     </main>
     <footer>
