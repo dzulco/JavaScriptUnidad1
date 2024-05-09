@@ -8,9 +8,9 @@ function inputByPrompt()
 
 function inputByForm()
 {
+    var userName = document.getElementById("user_name").value;
     var numberOne = document.getElementById("valor_1").value;
     var numberTwo = document.getElementById("valor_2").value;
-    var userName = document.getElementById("user_name").value;
     showMathOperations("FORM",numberOne,numberTwo,userName);
 }
 
@@ -30,5 +30,4 @@ function showMathOperations(inputMethod,numberOne,numberTwo,userName)
     message+='\n';
     
     document.getElementById('resultados').innerText=message;
-
 }
