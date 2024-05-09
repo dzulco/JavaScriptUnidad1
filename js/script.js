@@ -3,7 +3,6 @@ function inputByPrompt()
     var userName = prompt("Ingrese nombre de usuario");
     var numberOne = prompt("Ingrese un numero");
     var numberTwo = prompt("Ingrese otro numero");
-
     showMathOperations("PROMPT",numberOne,numberTwo,userName);
 }
 
